@@ -2616,6 +2616,11 @@ body {
   @media (max-width: 990px) {
     .contact {
       padding: 0 45px; } }
+  @media (min-width: 768px) {
+    .contact {
+      margin-top: -45px;
+    }
+  }
 
 .contact__cover {
   width: 100%;
