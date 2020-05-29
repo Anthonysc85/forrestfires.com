@@ -50,10 +50,16 @@
 
 
 <!-- ###################### IMPORTANT ############################ -->
-<!-- This is your photo gallery, to add new photo simply copy from Photo Start to Photo End and paste it after the photo where youd like it placed. If you want to rearrange the photos the easiest option is to change the name of the images in the website folder to the name of the photo already in the desired position. -->
+<!-- This is your photo gallery, to add new photo simply copy from Photo Start to Photo End and paste it after 
+the last photo and update the data-image-index appropriatly as well as the name of the image starting with the folder:
+src="images/Photoname.jpg" srcset="images/Photoname.jpg" alt="images/Photoname.jpg". 
+If you want to rearrange the photos the easiest option is to change the index to the desired position.
+The index starts at 0 and currently ends at 34, so if you were to add another photo youd update the index 
+to 35 on the new photo-->
+            
 
-
-            <!-- Photo Start (copy and past from Photo Start to Photo End to add new photo) -->
+              <!-- (copy and past from Photo Start to Photo End to add new photo) -->
+              <!-- Photo Start -->
                             <a class="grid-item js-pswp" data-image-index="0" >
                     <div class="grid-item__content">
                         <img 
